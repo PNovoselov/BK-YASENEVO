@@ -87,7 +87,38 @@
         letter-spacing: 0%;
         text-align: right;
     }
-    
+    @media screen and (max-width: 1279px) and (min-width: 768px) {
+        .footer-content{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            width: auto;
+        }
+        .footer__second_content{
+            bottom: 80px;
+        }
+    }
+    @media screen and (max-width: 767px) and (min-width: 374px) {
+        .footer-content{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+            width: auto;
+        }
+        .footer__second_content{
+            bottom: 30px;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        .footer__input {
+            display: inline;
+            width: 334px;
+        }
+    }
     
 
     
