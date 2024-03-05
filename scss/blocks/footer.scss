@@ -100,6 +100,10 @@
         }
     }
     @media screen and (max-width: 767px) and (min-width: 374px) {
+        .footer__title{
+            padding: 50px 10px 10px 15px;
+        }
+        
         .footer-content{
             position: relative;
             display: flex;

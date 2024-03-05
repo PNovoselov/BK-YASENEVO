@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 1279px) and (min-width: 768px) {
   .hero {
-    &__image {
+    .hero__image {
       height: 400px;
     }
     &__title {
@@ -83,7 +83,7 @@
       justify-content: space-evenly;
       &:not(.hero__parametrs_large) {
         position: absolute;
-        top:auto;
+        top: 274px;
         right:0;
         height: 160px;
         width: 240px;
@@ -124,7 +124,7 @@
       padding-top: 15px;
       &:not(.hero__parametrs_large) {
         position: absolute;
-        top:auto;
+        top:171px;
         right:0;
         height: 90px;
         width: 150px;
